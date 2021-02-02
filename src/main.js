@@ -22,6 +22,7 @@ import '@/permission' // permission control
  *
  * Currently MockJs will be used in the production environment,
  * please remove it before going online ! ! !
+ * 屏蔽这里生产环境不使用mock，放开这里生产环境使用mock
  */
 // if (process.env.NODE_ENV === 'production') {
 //   const { mockXHR } = require('../mock')

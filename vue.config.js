@@ -36,6 +36,7 @@ module.exports = {
       warnings: false,
       errors: true
     },
+    //屏蔽这个开发环境屏蔽mock
     before: require('./mock/mock-server.js')
   },
   configureWebpack: {
